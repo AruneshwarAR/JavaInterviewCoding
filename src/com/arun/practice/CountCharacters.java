@@ -1,0 +1,17 @@
+package com.arun.practice;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class CountCharacters {
+	public static void main(String[] args) {
+		String str = "programming";
+		Map<Character, Integer> countChar = new HashMap<Character, Integer>();
+		for (char c : str.toCharArray()) {
+			countChar.put(c, (countChar.getOrDefault(c, 0) + 1));
+		}
+		System.out.println(countChar);
+		System.out.println(countChar.size());
+	}
+}
