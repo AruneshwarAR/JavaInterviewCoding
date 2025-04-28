@@ -2,6 +2,7 @@ package com.arun.practice;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 
 public class CountCharacters {
@@ -13,5 +14,11 @@ public class CountCharacters {
 		}
 		System.out.println(countChar);
 		System.out.println(countChar.size());
+		for(Map.Entry<Character , Integer > e :countChar.entrySet()) {
+			if (e.getValue() ==1) {
+				System.out.println(e);
+			}
+			
+		}
 	}
 }
