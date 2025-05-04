@@ -35,6 +35,7 @@ public class mainTest {
 		//polymorphism
 		Vehicle ref = new Bike("Type");
 		ref.start();
+		ref.move();
 		
 	}
 
