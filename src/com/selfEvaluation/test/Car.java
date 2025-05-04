@@ -5,14 +5,18 @@ import java.util.Locale;
 public class Car implements Engine {
 	private String brand, model;
 	private double price;
+	private static int totalCars=0;
 
 	public Car(String brand, String model, double price) {
 		super();
 		this.brand = brand;
 		this.model = model;
 		this.price = price;
+		totalCars++;
 	}
-
+public static void totalCars() {
+	System.out.println("totalCars count is "+totalCars);
+}
 	public String getBrand() {
 		return "The Brand is " + brand;
 	}

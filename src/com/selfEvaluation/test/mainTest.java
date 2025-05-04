@@ -45,7 +45,7 @@ public class mainTest {
 		Vehicle ref = new Bike("Type");
 		ref.start();
 		ref.move();
-		
+		Car.totalCars();
 	}
 
 }
