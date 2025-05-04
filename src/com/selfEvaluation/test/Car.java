@@ -10,19 +10,19 @@ public Car(String brand, String model, double price) {
 	this.price = price;
 }
 public String getBrand() {
-	return brand;
+	return "The Brand is "+brand;
 }
 public void setBrand(String brand) {
 	this.brand = brand;
 }
 public String getModel() {
-	return model;
+	return "The Model is "+model;
 }
 public void setModel(String model) {
 	this.model = model;
 }
-public double getPrice() {
-	return price;
+public String getPrice() {
+	return "The pice is "+price;
 }
 public void setPrice(double price) {
 	this.price = price;
