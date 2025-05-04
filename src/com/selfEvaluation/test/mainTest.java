@@ -46,6 +46,9 @@ public class mainTest {
 		ref.start();
 		ref.move();
 		Car.totalCars();
+		License li = new License();
+		li.getRules();
+		
 		
 		
 		
