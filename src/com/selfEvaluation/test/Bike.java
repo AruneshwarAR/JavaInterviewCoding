@@ -7,7 +7,7 @@ public class Bike extends Vehicle{
 		super(type);
 		// TODO Auto-generated constructor stub
 	}
-//	public String displayInfo() {
-//		return "bike type : "+ type;
-//	}
+	public String displayInfo() {
+		return "This is a bike of type : "+ type;
+	}
 }
