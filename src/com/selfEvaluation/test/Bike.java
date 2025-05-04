@@ -10,4 +10,7 @@ public class Bike extends Vehicle{
 	public String displayInfo() {
 		return "This is a bike of type : "+ type;
 	}
+	public void start() {
+		System.out.println("BikeStart "+type);
+	}
 }

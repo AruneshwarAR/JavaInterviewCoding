@@ -8,11 +8,9 @@ public Vehicle(String type) {
 public String displayInfo() {
 	return "The Vehicle type is "+type;
 }
-//public String getType() {
-//	return type;
-//}
-//public void setType(String type) {
-//	this.type = type;
-//}
+
+public void start() {
+	System.out.println("VehicleStart");
+}
 }
 
