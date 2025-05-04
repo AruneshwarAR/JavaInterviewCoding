@@ -1,5 +1,7 @@
 package com.selfEvaluation.test;
 
+import java.util.Locale;
+
 public class Car {
 private String brand,model;
 private double price;
@@ -22,7 +24,7 @@ public void setModel(String model) {
 	this.model = model;
 }
 public String getPrice() {
-	return "The pice is "+price;
+	return String.format(Locale.US, "The pice is %.1f", price);
 }
 public void setPrice(double price) {
 	this.price = price;
