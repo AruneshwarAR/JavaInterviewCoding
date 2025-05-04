@@ -40,7 +40,9 @@ public static void totalCars() {
 	public void setPrice(double price) {
 		this.price = price;
 	}
-
+	public void setPrice(int price) {
+		this.price = price;
+	}
 	public void startEngine() {
 		System.out.println("Started " + brand + "-" + model);
 	}
