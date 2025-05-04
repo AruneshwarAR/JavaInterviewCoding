@@ -16,6 +16,10 @@ public class mainTest {
 		System.out.println(sowmiCar.getModel());
 		System.out.println(sowmiCar.getPrice());
 		
+		appuCar.startEngine();
+		sowmiCar.stopEngine();
+		appuCar.stopEngine();
+		sowmiCar.startEngine();
 		appuCar.setBrand("Porche");
 		appuCar.setModel("Caymen");
 		appuCar.setPrice(150000000);
@@ -23,6 +27,11 @@ public class mainTest {
 		sowmiCar.setBrand("Lamborghini");
 		sowmiCar.setModel("urus");
 		sowmiCar.setPrice(420000000);
+		appuCar.startEngine();
+		sowmiCar.stopEngine();
+		appuCar.stopEngine();
+		sowmiCar.startEngine();
+	
 		
 		System.out.println(appuCar.getBrand());
 		System.out.println(appuCar.getModel());
