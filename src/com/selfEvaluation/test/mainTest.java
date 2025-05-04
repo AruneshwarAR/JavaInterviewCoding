@@ -31,6 +31,11 @@ public class mainTest {
 		System.out.println(sowmiCar.getModel());
 		System.out.println(sowmiCar.getPrice());
 		
+		
+		//polymorphism
+		Vehicle ref = new Bike("Type");
+		ref.start();
+		
 	}
 
 }
