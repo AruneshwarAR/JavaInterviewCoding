@@ -36,10 +36,13 @@ public class mainTest {
 		System.out.println(appuCar.getBrand());
 		System.out.println(appuCar.getModel());
 		System.out.println(appuCar.getPrice());
+		System.out.println("Appu car Mileage"+appuCar.calculateMileage(5, 70));
 		System.out.println(sowmiCar.getBrand());
 		System.out.println(sowmiCar.getModel());
 		System.out.println(sowmiCar.getPrice());
+		System.out.println("Sowmi car Mileage"+sowmiCar.calculateMileage(8, 120));
 		
+//		System.out.println("Appu car Mileage"+appuCar.calculateMileage(0, 70));
 		
 		//polymorphism
 		Vehicle ref = new Bike("Type");

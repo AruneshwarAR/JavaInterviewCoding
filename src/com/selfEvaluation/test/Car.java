@@ -50,4 +50,11 @@ public static void totalCars() {
 	public void stopEngine() {
 		System.out.println("Stopped " + brand + "-" + model);
 	}
+	public int calculateMileage(int fuel,int distance) {
+		if(fuel == 0)
+		{
+			throw new IllegalArgumentException("fuel cannot be zero");
+		}
+		else return distance/fuel;
+	}
 }
