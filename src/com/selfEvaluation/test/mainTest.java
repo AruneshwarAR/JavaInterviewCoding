@@ -52,6 +52,10 @@ public class mainTest {
 		License li = new License();
 		li.getRules();
 		
+		Garage g = new Garage();
+		g.showGarage();
+		
+		
 		
 		
 		
