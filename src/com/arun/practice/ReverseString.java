@@ -6,8 +6,8 @@ public class ReverseString {
 		// TODO Auto-generated method stub
 		
 		String givenString = "reverse the whole string";
-		StringBuilder reversedString = new StringBuilder(givenString);
-		reversedString = reversedString.reverse();
+		StringBuilder reversedString = new StringBuilder(givenString).reverse();
+//		reversedString = reversedString.reverse();
 		System.out.println(reversedString);
 		
 

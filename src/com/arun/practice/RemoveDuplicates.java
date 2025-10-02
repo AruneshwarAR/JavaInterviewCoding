@@ -5,7 +5,8 @@ public class RemoveDuplicates {
 public static void main(String[] args) {
 	String str = "Programming";
 	Set<Character> set = new LinkedHashSet<>();
-	for(Character c: str.toCharArray()) {
+	
+	for(char c: str.toCharArray()) {
 		set.add(c);
 	}
 	StringBuilder strb = new StringBuilder();

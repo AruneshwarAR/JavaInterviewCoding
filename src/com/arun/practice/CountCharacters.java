@@ -20,6 +20,7 @@ public class CountCharacters {
 		for(Map.Entry<Character , Integer > e :countChar.entrySet()) { 
 			if (e.getValue() ==1) {
 				 System.out.println("output: "+ e.getKey());
+				 //break;
 			}
 			
 		}
